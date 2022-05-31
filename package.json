@@ -2,7 +2,10 @@
   "name": "Teste",
   "version": "1.0.0",
   "main": "./src/api.js",
-  "repository": "git@github.com:Laudier2/teste.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Laudier2/teste.git"
+  },
   "author": "Laudier2 <trabalhandooline2019@hotmail.com>",
   "license": "MIT",
   "scripts": {
@@ -15,5 +18,12 @@
     "morgan": "^1.10.0",
     "netlify-lambda": "^2.0.15",
     "serverless-http": "^3.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/Laudier2/teste/issues"
+  },
+  "homepage": "https://github.com/Laudier2/teste#readme",
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
 }
